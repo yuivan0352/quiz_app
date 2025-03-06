@@ -2,48 +2,57 @@ import 'package:quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-  "Question 1", 
+  "Which monster's hide does Nerscylla wear on it's back?", 
     [
-      "A",
-      "B",
-      "C",
-      "D",
+      "Gypceros",
+      "Zamtrios",
+      "Great Baggi",
+      "Velocidrome",
     ]
   ),
   QuizQuestion(
-    "Question 2",
+    "Which monster does Rajang eat the horns of?",
     [
-      "A",
-      "B",
-      "C",
-      "D",
+      "Kirin",
+      "Kushala Daora",
+      "Diablos",
+      "Zinogre",
     ]
   ),
   QuizQuestion(
-    "Question 3", 
+    "Which monster is the female counterpart of their species in heat?", 
     [
-      "A",
-      "B",
-      "C",
-      "D",
+      "Black Diablos",
+      "Purple Gypceros",
+      "Red Khezu",
+      "Rathian",
     ]
   ),
   QuizQuestion(
-    "Question 4",
+    "Which weapon was introduced in the fourth generation of Monster Hunter?",
     [
-      "A",
-      "B",
-      "C",
-      "D",
+      "Insect Glaive",
+      "Dual Blades",
+      "Tonfa",
+      "Switch Axe",
     ]
   ),
   QuizQuestion(
-    "Question 5",
+    "Which of these companions were introduced in Monster Hunter Rise?",
     [
-      "A",
-      "B",
-      "C",
-      "D",
+      "Palamute",
+      "Palico",
+      "Seikret",
+      "Poogie",
+    ]
+  ),
+  QuizQuestion(
+    "What kind of monster is Shagaru Magala?",
+    [
+      "Elder Dragon",
+      "Flying Wyvern",
+      "Bird Wyvern",
+      "Fanged Wyvern",
     ]
   ),
 ];
