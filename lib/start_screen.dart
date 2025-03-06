@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen(this.startQuiz,{super.key});
@@ -12,19 +13,21 @@ class StartScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            'assets/images/quiz-logo.png',
+            'assets/images/monster-hunter-wilds-logo.webp',
             width: 300,
             color: Color.fromARGB(150, 255, 255, 255),
           ),
           SizedBox(
-            height: 80,
+            height: 20,
           ),
           Text(
-            "Learn Flutter the Fun Way",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 24,
-            ),
+            "Test Your Monster Hunter Knowledge!",
+            style: GoogleFonts.lato(
+                fontSize: 24,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            textAlign: TextAlign.center,
           ),
           const SizedBox(
             height: 30,
