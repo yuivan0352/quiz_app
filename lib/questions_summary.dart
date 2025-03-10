@@ -49,7 +49,7 @@ class QuestionsSummary extends StatelessWidget {
                               data['user_answer'] as String,
                               style: GoogleFonts.lato(
                                 fontSize: 16,
-                                color: data['user_answer'] == data['correct_answer'] ?const Color.fromARGB(255, 60, 94, 120) : Color.fromARGB(255, 111, 53, 148),
+                                color: data['user_answer'] == data['correct_answer'] ?const Color.fromARGB(255, 1, 49, 86) : Color.fromARGB(255, 111, 53, 148),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -60,7 +60,7 @@ class QuestionsSummary extends StatelessWidget {
                               data['correct_answer'] as String,
                               style: GoogleFonts.lato(
                                 fontSize: 16,
-                                color: const Color.fromARGB(255, 60, 94, 120),
+                                color: const Color.fromARGB(255, 1, 49, 86),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
